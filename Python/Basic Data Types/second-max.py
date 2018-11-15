@@ -1,0 +1,7 @@
+n=int(input())
+srt=set(map(int,input().split()))
+#print(srt)
+srt=list(srt)
+#print(srt)
+srt.sort()
+print(srt[-2])
